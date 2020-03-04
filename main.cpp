@@ -2,7 +2,7 @@
 #include <GridLineTraversal.h>
 
 #define  START_POINT IPoint(0,0)   
-#define  END_POINT IPoint(5,3)
+#define  END_POINT IPoint(5,2)
 
 int main(void){
     GridLineTraversalLine line;

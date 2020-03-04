@@ -42,9 +42,9 @@ void GridLineTraversal::grid_line_core(IPoint start, IPoint end, GridLineTravers
 	            } else {
 	                y++; d+=incr2;
 	            }
-	        line->points[cnt].x=x;
-	        line->points[cnt].y=y;
-	        cnt++;
+                line->points[cnt].x=x;
+                line->points[cnt].y=y;
+                cnt++;
             }
         } else {
             while (x < xend) {
